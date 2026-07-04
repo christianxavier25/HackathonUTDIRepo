@@ -174,24 +174,8 @@
     </style>
 </head>
 <body class="bg-background text-on-background min-h-screen flex flex-col font-body-md text-body-md antialiased">
-<!-- TopNavBar -->
-<header class="bg-surface dark:bg-inverse-surface sticky top-0 z-50 border-b border-outline-variant shadow-sm">
-<div class="max-w-container-max mx-auto px-margin-desktop flex justify-between items-center h-20 w-full">
-<div class="font-headline-md text-headline-md font-bold text-primary dark:text-inverse-primary">SMK PPDB</div>
-<nav class="hidden md:flex gap-gutter items-center">
-<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-secondary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-on-surface-variant px-3 py-2 rounded-lg" href="index.html">Beranda</a>
-<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-secondary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-on-surface-variant px-3 py-2 rounded-lg" href="tentang_kami_smk_ppdb.html">Tentang</a>
-<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-secondary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-on-surface-variant px-3 py-2 rounded-lg" href="#">Jurusan</a>
-<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-secondary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-on-surface-variant px-3 py-2 rounded-lg" href="#">Jadwal PPDB</a>
-<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-secondary-fixed transition-colors hover:bg-surface-container-low dark:hover:bg-on-surface-variant px-3 py-2 rounded-lg" href="#">Kontak</a>
-</nav>
-<button class="font-label-md text-label-md bg-secondary-container text-on-secondary-container hover:bg-secondary-fixed px-6 py-2 rounded-lg transition-transform duration-150 active:scale-95 hidden md:block font-bold" onclick="window.location.href='pendaftaran_akun_baru_smk_ppdb.html'">Daftar Sekarang</button>
-<button class="md:hidden text-primary">
-<span class="material-symbols-outlined">menu</span>
-</button>
-</div>
-</header>
-<!-- Main Content -->
+<!-- Suppressed TopNavBar for Linear/Transactional Flow (Registration) -->
+<main class="flex-grow flex items-center justify-center p-margin-mobile md:p-margin-desktop relative overflow-hidden">
 <!-- Decorative Background -->
 <div class="absolute inset-0 stripes-bg z-0 pointer-events-none"></div>
 <div class="max-w-container-max w-full mx-auto relative z-10">
@@ -230,7 +214,7 @@
 </div>
 <div class="mt-12 pt-8 border-t border-on-primary/20">
 <p class="font-label-md text-label-md text-on-primary/80">Sudah memiliki akun?</p>
-<a class="inline-flex items-center gap-2 mt-2 font-label-md text-label-md text-secondary-fixed hover:underline" href="login_siswa_smk_ppdb.html">
+<a class="inline-flex items-center gap-2 mt-2 font-label-md text-label-md text-secondary-fixed hover:underline" href="#">
 <span>Masuk ke Dashboard</span>
 <span class="material-symbols-outlined text-sm">arrow_forward</span>
 </a>
